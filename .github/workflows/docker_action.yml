@@ -14,7 +14,7 @@ jobs:
 
       - name: Run my own container action
         id: hello-action
-        uses: FrankDaze/hello-world-docker-action@v1.0.0
+        uses: FrankDaze/hello-world-docker-action@main
         with:
           who-to-greet: '@frankdaze'
 
